@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Flappy 5</title><link rel="stylesheet" href="style.css"></head><body>
+<main class="game"><canvas id="gameCanvas"></canvas>
+<div class="hud"><b id="score">0 / 5</b><button id="soundBtn">🔊</button></div>
+<section id="startScreen" class="overlay"><h1>FLAPPY 5</h1><p>Reach <b>5 points</b> to win!</p><button id="startBtn">START</button><small>Tap or press SPACE to flap</small></section>
+<section id="gameOverScreen" class="overlay hidden"><h2>GAME OVER</h2><p>Score: <b id="finalScore">0</b> / 5</p><button id="restartBtn">TRY AGAIN</button></section>
+<section id="winScreen" class="overlay hidden"><h2>🎉 CONGRATS YOU WIN! 🎉</h2><p>You reached 5 points!</p>
+<video id="winVideo" controls playsinline><source src="ssstik.io_@mammot379_1790653395819.mp4" type="video/mp4"></video>
+<button id="playAgainBtn">PLAY AGAIN</button></section>
+<audio id="bgMusic" loop preload="auto"><source src="nostalgicallynintendo-lost-woods-the-legend-of-zelda-ocarina-of-time-nintendo-nost.mp3" type="audio/mpeg"></audio>
+</main><script src="script.js"></script></body></html>
